@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Votre Diététicienne - Interventions & Consultations</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+  <header class="bg-green-500 text-white py-10 text-center shadow">
+    <h1 class="text-4xl font-bold">Votre Diététicienne Libérale</h1>
+    <p class="text-xl mt-2">Formations, Informations & Consultations en Nutrition</p>
+  </header>
+
+  <nav class="bg-green-600 text-white text-center py-4 shadow-md">
+    <a href="#presentation" class="mx-4 hover:underline">Présentation</a>
+    <a href="#services" class="mx-4 hover:underline">Services</a>
+    <a href="#contact" class="mx-4 hover:underline">Contact</a>
+  </nav>
+
+  <main class="max-w-5xl mx-auto px-4 py-10">
+    <section id="presentation" class="mb-16">
+      <h2 class="text-3xl font-semibold mb-4">À propos</h2>
+      <p class="text-lg leading-relaxed">Diététicienne libérale spécialisée dans les interventions externes, je propose des services adaptés aux besoins des établissements (EHPAD, entreprises, collectivités...) ainsi qu'aux particuliers : formations, séances d'information, ateliers thématiques et consultations individuelles.</p>
+    </section>
+
+    <section id="services" class="mb-16">
+      <h2 class="text-3xl font-semibold mb-4">Nos Services</h2>
+      <ul class="list-disc list-inside space-y-3 text-lg">
+        <li><strong>Formations en nutrition</strong> : pour les professionnels de santé, personnels de restauration, éducateurs.</li>
+        <li><strong>Interventions en établissements</strong> : EHPAD, entreprises, écoles, collectivités.</li>
+        <li><strong>Consultations individuelles</strong> : éducation nutritionnelle, suivi diététique, pathologies spécifiques.</li>
+        <li><strong>Ateliers et conférences</strong> : prévention santé, alimentation durable, étiquetage alimentaire.</li>
+      </ul>
+      <div class="bg-green-100 mt-8 p-6 rounded-xl text-center">
+        <h3 class="text-2xl font-semibold mb-2">Besoin d'une intervention ou d'une consultation ?</h3>
+        <p class="mb-4">Je vous propose des solutions personnalisées selon vos besoins et votre structure.</p>
+        <a href="#contact" class="inline-block bg-green-500 text-white px-6 py-2 rounded hover:bg-green-600">Contactez-moi</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="text-3xl font-semibold mb-4">Contact</h2>
+      <p class="text-lg mb-2">Pour toute demande d'information, de devis o de rendez-vous :</p>
+      <p class="text-lg">📧 <a href="mailto:dieteticienne@example.com" class="text-green-600 hover:underline">dieteticienne@example.com</a></p>
+      <p class="text-lg">📞 06 00 00 00 00</p>
+      <p class="text-lg">📍 Zone d'intervention : [Votre région / ville]</p>
+    </section>
+  </main>
+
+  <footer class="bg-green-500 text-white text-center py-4 mt-10">
+    <p>&copy; 2025 Votre Diététicienne Libérale - SIRET 123 456 789 00000</p>
+  </footer>
+</body>
+</html>
